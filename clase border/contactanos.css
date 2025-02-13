@@ -1,0 +1,90 @@
+.lente{
+     position: relative;
+    left:450px;
+    bottom:54px ;
+    border-radius: 5px;
+    color: aqua;
+}
+
+body{
+    background-color: black;
+    max-width: 600px;
+    border: 10px solid aqua;
+    position: relative;
+    left: 500px;
+    
+}
+
+
+h2{
+    color: aqua;
+}
+
+h1{
+    color: aqua;
+    font-size: 50px;
+    border: 5px solid;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+    
+}
+
+.palo1{
+    border-radius: 50px;
+    box-shadow: 10px 10px  rgb(0, 255, 17);
+    text-align: center;
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+}
+
+.palo2{
+    border-radius: 50px;
+    box-shadow: 10px 10px  rgb(251, 6, 255);
+    text-align: center;
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+}
+
+.palo3{
+    border-radius: 50px;
+    box-shadow: 10px 10px  rgb(0, 55, 255);
+    text-align: center;
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+}
+
+
+
+.carro{
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    position: relative;
+    top: 10px;
+    position: relative;
+    left: 120px;
+    border-radius: 10px;
+    
+}
+
+button{
+    position: relative;
+    top: 10px;
+    background-color: black;
+    border: 5px solid white;
+}
+
+.motor{
+    color: rgb(0, 251, 255);
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}

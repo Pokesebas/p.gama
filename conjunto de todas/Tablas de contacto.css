@@ -1,0 +1,14 @@
+button{
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid black;
+}
+
+h1{
+    border: 3px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    width: 545px ;
+}
+
+table{
+    border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,144 @@
+body{
+    max-width: 500px;
+    background-color: black;
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+p{
+    color: rgb(255, 255, 255); 
+    opacity: 100%;
+    font-size: 20px;
+}
+
+*{
+    padding-block: 10px;
+}
+
+.adios{
+    max-width: 400px;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: relative;
+    bottom: 660px;
+    left: 290px;
+    border-radius: 50px;
+    border: 5px solid aqua;
+}
+
+input{
+    margin: 5px;
+}
+
+h1{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid black;
+    position: relative;
+    top:10px;
+}
+
+.hola{
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid black;
+    position: relative;
+    top: 5px;
+}
+
+.gigi{
+    color: rgb(0, 0, 0);
+}
+
+input{
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.boton-neon1 {
+    background-color:  #00ffff ;
+    border: 2px solid #00ffff ;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+    transition: 0.3s ease-in-out;
+    border-radius: 120px;
+}
+
+.boton-neon:hover1 {
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    transform: scale(1.1);
+}
+
+.boton-neon2{
+    background-color: #00ff04;
+    border: 2px solid #00ff04;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 5px #00ff04, 0 0 10px #00ff04, 0 0 15px #00ff04;
+    transition: 0.3s ease-in-out;
+    border-radius: 120px;
+}
+
+.boton-neon:hover2 {
+    box-shadow: 0 0 10px #00ff04, 0 0 20px #00ff04, 0 0 30px #00ff04;
+    transform: scale(1.1);
+
+}
+
+.boton-neon3{
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000;
+    transition: 0.3s ease-in-out;
+    border-radius: 120px;
+}
+
+.boton-neon:hover3{
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    transform: scale(1.1);
+
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+
+

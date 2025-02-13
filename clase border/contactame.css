@@ -1,0 +1,125 @@
+body{
+    width: 209vh;
+    height: 110vh;
+    background: #3bacf7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+  
+footer{
+      background: linear-gradient(270deg, #00eeff, #00aeff, #004bd7, #000000);
+      position: relative;
+      top: 175px;
+      font-size: 50px;
+      padding: 10px;
+      color: white;
+      font-size: 20px;
+  }
+
+.caja1{
+    border-radius: 100px;
+    width: 280px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    box-shadow: 10px 10px greenyellow;
+}
+
+.caja2{
+    border-radius: 200px;
+    width: 280px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    box-shadow: 10px 10px pink;
+}
+
+.caja3{
+    border-radius: 100px;
+    width: 280px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    box-shadow: 10px 10px aqua;
+}
+  
+.uno{
+      width: 100px;
+      border-radius: 50px;
+}
+  
+.yo{
+      position: relative;
+      left: 120px;
+      bottom: 200PX;
+      font-size: 100px;
+      color: rgb(255, 255, 255);
+}
+  
+.contactame{
+      position: relative;
+      left: 1049px;
+      bottom: 430pX;
+      font-size: 50px;
+      padding: 20px;
+      height: 50px;
+      max-width: 69vh;
+      background: #65bcf7;
+      color: rgb(255, 255, 255);
+      height:80px;
+      text-align: center;
+      border: 5px solid;
+      border-color: black black black transparent;
+}
+  
+.pa{
+      border: 5px solid ;
+      position: relative;
+      max-width: 130vh;
+      border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+      padding: 20px;
+      height: 170px;
+      background: #65bcf7;
+}
+
+  
+.bo{
+      position: relative;
+      left: 1090px;
+      bottom: 80px;
+      font-size: 40px;
+      border: 5px solid black;
+      text-decoration: none;
+      padding: 5px;
+      color: black;
+      background-color: white;
+      border-radius: 10px;
+}
+
+
+.bo:hover{
+      background: linear-gradient(270deg, #00eeff, #00aeff, #004bd7, #000000);
+      border-radius: 10px;
+      transition: 5s;
+      color: rgb(255, 255, 255);
+}
+  
+.whatsapp1{
+      position: relative;
+      left: 1220px;
+      top: 30px;
+  
+  }
+  .facebook1{
+      position: relative;
+      left: 1220px;
+      top: 30px;
+  }
+  .instagram1{
+      position: relative;
+      left: 1220px;
+      top: 30px;
+  } 
+

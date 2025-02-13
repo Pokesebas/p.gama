@@ -1,0 +1,22 @@
+h1{
+    border: 5px solid black;
+    border-radius: 10px 10px;
+    background-color: aqua;
+    width: 545px;
+    text-align: center;
+}
+ 
+div{
+    border-radius: 10px 10px 10px 10px;
+    width: 554px;
+    background-color: blue ;
+    border: 15px solid black;
+}
+
+button{
+    border-radius: 10px 10px 10px 10px;
+    width: 554px;
+    border-color: black;
+    border: 5px solid black;
+}
+

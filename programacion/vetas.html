@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ventas.css">
+</head>
+<body>
+    <header>
+        <figure><h1>JJS</h1></figure>
+            <h1 class="uno">Tecnologia y Papeleria</h1>
+
+
+  <div class="search-container">
+        <input type="text" class="search-box" placeholder="Buscar...">
+        <button class="search-button">Buscar</button>
+    </div>
+
+    <div class="zona">
+        <a class="nav-item active" data-bs-toggle="pill" href="perfil.html" role="tab">
+            <figure><img src="paisaje.png"></figure>
+            <h1 class="hosla">HiDaDySe</h1>
+        </a>
+    </div>
+
+        <a class="nav-item active" data-bs-toggle="pill" href="informacion.html" role="tab">
+            <figure><img class="pregunta" src="pregunta.png" alt=""></figure>
+        </a>
+
+        <a class="nav-item active" data-bs-toggle="pill" href="notificacion.html" role="tab">
+            <figure><img class="notificacion" src="notificacion.png" alt=""></figure>
+         </a>
+
+        <a class="nav-item active" data-bs-toggle="pill" href="configuracion.html" role="tab">
+            <figure><img class="menu" src="menu.png" alt=""></figure>
+        </a>
+       
+            <hr>
+        <div>
+            <nav class="admin-panel-nav">
+                <ul>
+                    <li class="nav-item"><a class="nav-item active" data-bs-toggle="pill" href="parte-facturacion.html"   
+                        role="tab">Facturacion</a></li><br>
+                    <li class="nav-item"><a class="nav-item active" data-bs-toggle="pill" href="parte-inventario.html" 
+                        role="tab">Inventario</a></li><br>
+                    <li class="nav-item"><a class="nav-item active" data-bs-toggle="pill" href="registro-producto.html" 
+                        role="tab">Producto</a></li><br>
+                    <li class="nav-item"><a class="nav-item active" data-bs-toggle="pill" href="contacto.html" 
+                        role="tab">Contacto</a></li><br>
+                    <li class="nav-item"><a class="nav-item active" data-bs-toggle="pill" href="vetas.html" 
+                        role="tab">Ventas</a></li><br>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h2 id="ventas" class="adios-palo">Formulario de Ventas</h2>
+
+<form class="formulario">
+  <div class="form-group">
+    <label for="clienteVenta">Nombre del Cliente</label>
+    <input type="text" id="clienteVenta" required>
+  </div>
+
+  <div class="form-group">
+    <label for="fechaVenta">Fecha de Venta</label>
+    <input type="date" id="fechaVenta" required>
+  </div>
+
+  <div class="form-group">
+    <label for="productoVenta">Producto</label>
+    <input type="text" id="productoVenta" required>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group mitad">
+      <label for="cantidadVenta">Cantidad</label>
+      <input type="number" id="cantidadVenta" min="1" required>
+    </div>
+
+    <div class="form-group mitad">
+      <label for="precioVenta">Precio Unitario</label>
+      <input type="number" id="precioVenta" step="0.01" min="0" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="pago">Método de Pago</label>
+    <select id="pago" required>
+      <option value="">Selecciona</option>
+      <option value="efectivo">Efectivo</option>
+      <option value="tarjeta">Tarjeta</option>
+      <option value="transferencia">Transferencia</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="totalVenta">Total</label>
+    <input type="number" id="totalVenta" readonly>
+  </div>
+
+  <button type="submit">Registrar Venta</button>
+</form>
+    </main>
+
+    <footer>
+        <p>Gracias por su compra</p>
+            <br>
+                <p>JJS</p>
+                    <p>2023</p>
+                        <p>Todos los derechos reservados</p>
+                            <p>Desarrollado por HiDaDySe</p>   
+    </footer>
+</body>
+</html>
+
